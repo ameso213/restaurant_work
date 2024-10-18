@@ -1,0 +1,113 @@
+/* Reset some default styles */
+body, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set the body styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+/* Header styles */
+header {
+    background: #4CAF50;
+    color: white;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    font-size:1.2rem;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Main section styles */
+main {
+    max-width: 1200px; /* Adjust to your desired max width */
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.about-container {
+    display: flex; /* Change to flex for horizontal alignment */
+    align-items: flex-start; /* Align items at the start */
+    width: 100%; /* Full width of the viewport */
+    margin-top: 20px; /* Adjust margin as needed */
+}
+
+.about-image {
+    max-width: 600px; /* Adjusted for better sizing */
+    border-radius: 8px;
+    margin-right: 20px;
+    height: 400px; /* Space between image and text */
+}
+
+.about-info {
+    flex: 1; /* Allow it to take available space */
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #313131;
+    color: white;
+    margin-top: 20px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+
+
+.see-more {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #4CAF50; /* Same color as header */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none; /* Remove underline if it's a link */
+    position: relative;
+}
+
+.see-more .arrow {
+    margin-left: 10px; /* Space between text and arrow */
+    transition: transform 0.3s ease; /* Smooth transition */
+}
+
+.see-more:hover .arrow {
+    transform: translateX(5px); /* Move the arrow on hover */
+}
+
+.see-more:hover {
+    background-color:#a83808; /* Darker shade on hover */
+}

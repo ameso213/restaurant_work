@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+header {
+    background: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fcfafa;
+    font-size:1.2rem;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.contact-container {
+    display: flex;
+    width: 100%;
+    max-width: 1200px; /* Adjust as needed */
+}
+
+.contact-info {
+    width: 35%;
+ 
+    background: #4CAF50;/* White with low opacity */
+     /* Rounded corners */
+    padding: 20px;
+    color: #faf8f8;
+    
+    margin-right: 10px; /* Space between sections */
+    background-image: url('../images/COT.png'); /* Add your background image */
+    background-size: cover; /* Cover the entire area */
+    background-position: center; /* Cnter the image */
+}
+
+.contact-info h2 {
+    margin-top: 0;
+}
+
+.contact-form {
+    width: 500px;
+    margin-left: 200px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    height: 400px;
+    
+    padding: 10px; /* Reduced padding */
+}
+
+.contact-form h2 {
+    margin-top: 0;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 90%;
+    margin-left: 30px;
+    padding: 8px; /* Reduced padding */
+    margin-bottom: 30px; /* Reduced margin */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 8px 12px; /* Reduced padding */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color:#a83808;
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}

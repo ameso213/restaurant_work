@@ -1,0 +1,108 @@
+
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+/* Header styles */
+header {
+    background: #4CAF50;
+    color: white;
+    padding: 20px;
+}
+
+/* Navigation styles */
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    font-size:1.2rem;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Header content styles */
+.header-content {
+    display: flex;
+    justify-content: space-between; /* Space between content and image */
+    align-items: center; /* Center vertically */
+    margin-top: 20px;
+    
+}
+
+/* Text content styles */
+.text-content {
+    max-width: 400px;
+    margin-left: 100px; 
+    margin-top: 200px;/* Adjust width as necessary */
+}
+
+/* Image styles */
+.food-image {
+    max-width: 600px; 
+    width: 100%; /* Full width of its container */
+    border-radius: 8px; /* Rounded corners */
+    margin-left: 5px; /* Add left margin */
+}
+
+/* Button styles */
+.order-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fcfdfc;
+    text-decoration: none;
+    border-radius: 5px;
+   
+    transition: background-color 0.3s;
+}
+
+.order-button:hover {
+    background-color: #a83808;
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+
+}
+
+
+.restaurant-title {
+    margin-bottom: 50px; /* Space below the title */
+    transform: translateY(-20px);
+    color: #8d3503; 
+    position: relative; 
+    top: -60px; 
+}
+
+.slogan {
+    font-size: 2.5rem; 
+    font-family: 'Script', cursive; 
+    position: relative; 
+    top: -60px; 
+    color: #a83808;
+    margin-bottom: 50px; 
+}
+
